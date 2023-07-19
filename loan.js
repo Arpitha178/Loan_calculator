@@ -13,3 +13,11 @@ function calculateLoan(){
     document.getElementById('totalInterest').innerHTML=`Total Interest` + totalInterest.toFixed(2);
 
 }
+function reset(){
+    document.getElementById('loanAmount').value = ""
+    document.getElementById('interestRate').value = ""
+    document.getElementById('tenure').value = ""
+    document.getElementById('monthlyPay').innerHTML = ""
+    document.getElementById('totalPay').innerHTML = ""
+    document.getElementById('totalInterest').innerHTML = ""
+}
